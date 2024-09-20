@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Calculator</title>
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css?family=Arvo" rel="stylesheet">
+</head>
+
+<body>
+  <div id = "calculator">
+    <input id = "display" readonly>
+    <div id = "keys">
+      <button onclick = "clearDisplay()" class = "operator-btn"> C </button>
+      <button onclick = "appenToDisplay('%')" class = "operator-btn"> % </button>
+      <button onclick = "clearDisplay2()" class = "operator-btn"> DEL </button>
+      <button onclick = "appenToDisplay('/')" class = "operator-btn"> / </button>
+      <button onclick = "appenToDisplay('7')"> 7 </button>
+      <button onclick = "appenToDisplay('8')"> 8 </button>
+      <button onclick = "appenToDisplay('9')"> 9 </button>
+      <button onclick = "appenToDisplay('*')" class = "operator-btn"> * </button>
+      <button onclick = "appenToDisplay('4')"> 4 </button>
+      <button onclick = "appenToDisplay('5')"> 5 </button>
+      <button onclick = "appenToDisplay('6')"> 6 </button>
+      <button onclick = "appenToDisplay('-')" class = "operator-btn"> - </button>
+      <button onclick = "appenToDisplay('1')"> 1 </button>
+      <button onclick = "appenToDisplay('2')"> 2 </button>
+      <button onclick = "appenToDisplay('3')"> 3 </button>
+      <button onclick = "appenToDisplay('+')" class = "operator-btn"> + </button>
+      <button onclick = "appenToDisplay('00')"> 00 </button>
+      <button onclick = "appenToDisplay('0')"> 0 </button>
+      <button onclick = "appenToDisplay('.')"> . </button>
+      <button onclick = "calculate()" class = "operator-btn"> = </button>
+
+    </div>
+  <script src = "index.js"></script>
+</body>
+
+</html>
